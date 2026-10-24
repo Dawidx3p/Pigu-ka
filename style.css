@@ -61,3 +61,13 @@ main{margin-left:220px;padding:24px 36px 40px;max-width:1280px}.topline{padding-
 .history-grid .note{font-size:11px;line-height:1.4;margin-top:10px}
 .history-grid .icon-btn{position:absolute;right:12px;bottom:12px}
 @media(max-width:850px){.grid .card{padding:14px}.grid .card h2{font-size:17px}.history-grid{gap:10px}.history-grid .row{padding:12px 12px 58px}.history-grid .title-link{font-size:14px;line-height:1.3}.history-grid .note{display:none}.history-grid .icon-btn{right:8px;bottom:8px}}
+
+/* Dwa rzędy kwadratów dopasowane również do wysokości ekranu. */
+.grid,.grid:has(.card-symbol),.learning-grid,.history-grid,.remind-grid{width:100%;max-width:min(640px,calc(100dvh - 280px));gap:10px}
+.grid .card,.grid:has(.card-symbol) .card{padding:14px}
+.learning-grid .row{padding:14px 14px 58px}.learning-grid .title-link{font-size:16px}
+@media(min-width:851px){main{padding-top:20px;padding-bottom:20px}.topline{margin-bottom:16px}.lead{margin-bottom:16px}.learn-head{margin-top:16px}.grid{margin-top:16px}footer{margin-top:16px;padding-top:12px}.card-symbol{margin-bottom:10px}}
+@media(max-width:850px){main{padding-top:12px;padding-bottom:16px}.topline{margin-bottom:12px}.eyebrow{margin-bottom:6px}h1{margin-bottom:8px}.lead{margin-bottom:14px;line-height:1.4}.learn-head{margin:16px 0 8px}.grid,.grid:has(.card-symbol),.learning-grid,.history-grid{max-width:min(100%,calc(100dvh - 310px))}.grid{margin-top:14px}.grid .card,.grid:has(.card-symbol) .card{padding:12px}.grid .card p{font-size:12px;line-height:1.35}.grid .card h2{font-size:16px}.grid .card-symbol{margin-bottom:8px}.learning-grid .row{padding:10px 10px 54px}.learning-grid .title-link{font-size:14px;line-height:1.3}.learning-grid .number{font-size:14px}.archive-link{font-size:14px}footer{margin-top:12px;padding-top:10px;font-size:11px}}
+
+/* Desktop: cztery kafelki w jednym wierszu, telefon: dwie kolumny. */
+@media(min-width:1100px){.grid,.grid:has(.card-symbol),.learning-grid,.history-grid,.remind-grid{grid-template-columns:repeat(4,minmax(0,1fr));max-width:1100px}.grid .card h2{font-size:18px}.grid .card p{font-size:13px}.learning-grid .title-link,.history-grid .title-link,.remind-grid .title-link{font-size:16px}.history-grid .note,.remind-grid .note{font-size:11px}}
