@@ -1,0 +1,3770 @@
+[
+  {
+    "pigulkaId": "test-uzytecznosci",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "ea6ad1243448295cb53240e81947eb971df2ffcd9e125e9ba063d13d4ecaf167",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "test-uzytecznosci-q01",
+        "pytanie": "Co jest głównym materiałem w teście użyteczności?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Obserwacja wykonywania zadania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ocena wyglądu przez projektanta"
+          },
+          {
+            "id": "o3",
+            "tekst": "Lista funkcji produktu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Test pokazuje zachowania podczas próby osiągnięcia celu, nie samą ocenę projektu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q02",
+        "pytanie": "Które polecenie najlepiej sprawdza odnalezienie kontaktu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Kliknij przycisk Kontakt w nagłówku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Oceń atrakcyjność przycisku Kontakt"
+          },
+          {
+            "id": "o3",
+            "tekst": "Chcesz zapytać o termin; pokaż, jak to zrobisz"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Scenariusz opisuje cel bez ujawniania drogi do rozwiązania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q03",
+        "pytanie": "Kogo najlepiej zaprosić do badania strony usługowej?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie projektantów podobnych stron"
+          },
+          {
+            "id": "o2",
+            "tekst": "Osoby odpowiadające odbiorcom usługi"
+          },
+          {
+            "id": "o3",
+            "tekst": "Dowolnych pracowników znających projekt"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Znajomość projektu może ukrywać trudności napotykane przez odbiorców.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q04",
+        "pytanie": "Co powiedzieć uczestnikowi na początku?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Sprawdzamy stronę, a nie Twoje umiejętności"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sprawdzamy, jak szybko uczysz się interfejsów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ocenimy Cię na tle innych uczestników"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Przedmiotem oceny jest produkt; uczestnik nie zdaje egzaminu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q05",
+        "pytanie": "Uczestnik zatrzymuje się przy formularzu. Co zrobić najpierw?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wskazać od razu właściwy przycisk"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyjaśnić zamysł projektanta"
+          },
+          {
+            "id": "o3",
+            "tekst": "Obserwować próbę i zanotować zawahanie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Natychmiastowa pomoc utrudnia poznanie samodzielnego zachowania użytkownika.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q06",
+        "pytanie": "Który zapis jest obserwacją?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Uczestnik nie lubi tej marki"
+          },
+          {
+            "id": "o2",
+            "tekst": "Uczestnik trzy razy otworzył menu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Menu jest na pewno niezrozumiałe dla wszystkich"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Zapis działania oddziela to, co widzieliśmy, od interpretacji przyczyny.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q07",
+        "pytanie": "Jak potraktować ocenę „strona jest ładna”?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako opinię, która nie dowodzi wykonania zadania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako potwierdzenie łatwego kontaktu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako zamiennik obserwacji formularza"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Pozytywna opinia estetyczna nie potwierdza użyteczności konkretnej ścieżki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q08",
+        "pytanie": "Co zrobić po zmianie niejasnej etykiety?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Uznać problem za rozwiązany na podstawie zmiany"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zmierzyć jedynie liczbę zmienionych znaków"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ponownie sprawdzić wykonanie zadania"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Powtórna obserwacja pozwala sprawdzić, czy poprawka pomaga.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q09",
+        "pytanie": "Co można wnioskować z kilku sesji jakościowych?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Przewidzieć liczbę przyszłych zamówień"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wskazać zaobserwowane bariery"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyliczyć udział wszystkich klientów z daną barierą"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Mała próba jakościowa służy rozpoznaniu problemów, nie wiarygodnemu szacowaniu populacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q10",
+        "pytanie": "Jak wykorzystać AI przy przygotowaniu testu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Do propozycji scenariuszy przed badaniem z ludźmi"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako równoważny zamiennik uczestników"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako dowód zachowań rzeczywistych klientów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Symulacja może wspomóc przygotowanie, ale nie jest obserwacją rzeczywistych odbiorców.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q11",
+        "pytanie": "Co warto ustalić przed sesją?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Docelowy pozytywny wynik uczestnika"
+          },
+          {
+            "id": "o2",
+            "tekst": "Liczbę pochwał potrzebnych do akceptacji"
+          },
+          {
+            "id": "o3",
+            "tekst": "Decyzję projektową i zadanie do sprawdzenia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Cel badania pomaga dobrać zadanie oraz interpretować obserwacje.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q12",
+        "pytanie": "Uczestnik szukający wyceny otwiera galerię. Jaki zapis jest najlepszy?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Uznać, że formularz działa poprawnie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zapisać ścieżkę i sprawdzić powód wyboru"
+          },
+          {
+            "id": "o3",
+            "tekst": "Założyć, że zainteresował go styl zdjęć"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Najpierw dokumentujemy zachowanie, zamiast zgadywać motywację.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q13",
+        "pytanie": "Kiedy można wykonać test użyteczności?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Także na prototypie przed wdrożeniem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Dopiero po opublikowaniu gotowej strony"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie po uruchomieniu płatnej reklamy"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Prototyp pozwala sprawdzać drogę do celu przed kosztowniejszym wdrożeniem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q14",
+        "pytanie": "Które pytanie najmniej podpowiada odpowiedź?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Czy przycisk w prawym rogu pomógłby Ci?"
+          },
+          {
+            "id": "o2",
+            "tekst": "Czy zgodzisz się, że menu jest jasne?"
+          },
+          {
+            "id": "o3",
+            "tekst": "Co próbujesz teraz znaleźć?"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Otwarte pytanie pomaga poznać zamiar bez sugerowania konkretnej kontrolki lub oceny.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q15",
+        "pytanie": "Który wynik najbardziej pomaga ustalić poprawkę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Liczba ekranów obejrzanych przez badacza"
+          },
+          {
+            "id": "o2",
+            "tekst": "Opis bariery wraz z zadaniem, w którym wystąpiła"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ogólna średnia ocen estetyki"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Kontekst zadania łączy obserwowany problem z konkretną decyzją projektową.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q16",
+        "pytanie": "Co odróżnia test od prezentacji projektu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Uczestnik sam próbuje wykonać zadanie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Projektant demonstruje najkrótszą ścieżkę"
+          },
+          {
+            "id": "o3",
+            "tekst": "Prowadzący omawia wszystkie zalety projektu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "W prezentacji pokazujemy rozwiązanie; w teście poznajemy sposób korzystania z niego.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q17",
+        "pytanie": "Dlaczego nie wybierać wyłącznie osób znających stronę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Ich opinie zawsze są błędne"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie da się obserwować ich zachowania"
+          },
+          {
+            "id": "o3",
+            "tekst": "Mogą korzystać z wiedzy niedostępnej nowym odbiorcom"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Znajomość rozwiązania może zmienić sposób wykonania zadania, choć sama opinia nie musi być błędna.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q18",
+        "pytanie": "Jak sformułować wniosek po jednym niepowodzeniu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Oferta nie ma popytu na rynku"
+          },
+          {
+            "id": "o2",
+            "tekst": "W tej sesji uczestnik nie znalazł kontaktu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Żaden klient nie znajdzie kontaktu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Zakres wniosku powinien odpowiadać zakresowi obserwacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q19",
+        "pytanie": "Co warto notować oprócz końcowego wykonania zadania?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pomyłki, próby i momenty zawahania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie końcową ocenę liczbową"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie czas działania strony"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Droga do celu może ujawnić bariery nawet wtedy, gdy uczestnik ostatecznie odniesie sukces.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "test-uzytecznosci-q20",
+        "pytanie": "Które zastosowanie najlepiej pasuje do KAIROX?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Udowodnić wzrost sprzedaży bez danych"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zastąpić wszystkie rozmowy z klientami"
+          },
+          {
+            "id": "o3",
+            "tekst": "Sprawdzić, czy odbiorca znajduje zakres usługi i kontakt"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Test pozwala sprawdzić konkretną drogę użytkownika; nie dowodzi automatycznie efektu sprzedażowego.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "kontrast-tekstu",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "a038ea1e03b400e8d305b63fe02ab7f67894487c63f31f593b6a9eddd124bdb8",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "kontrast-tekstu-q01",
+        "pytanie": "Czego dotyczy kontrast tekstu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Różnicy jasności liter i tła"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie różnicy odcienia kolorów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Liczby kolorów użytych na stronie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Pomiar dotyczy jasności pary tekst–tło, a nie samego zróżnicowania barw.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q02",
+        "pytanie": "Jaki próg WCAG 2.2 AA dotyczy zwykłego tekstu objętego kryterium 1.4.3?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Co najmniej 3:1"
+          },
+          {
+            "id": "o2",
+            "tekst": "Co najmniej 2:1"
+          },
+          {
+            "id": "o3",
+            "tekst": "Co najmniej 4,5:1"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Dla zwykłego tekstu wymagany jest stosunek co najmniej 4,5:1.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q03",
+        "pytanie": "Jaki próg dotyczy dużego tekstu w tym kryterium?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Co najmniej 7:1"
+          },
+          {
+            "id": "o2",
+            "tekst": "Co najmniej 3:1"
+          },
+          {
+            "id": "o3",
+            "tekst": "Co najmniej 2:1"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Duży tekst ma niższy próg minimalny: 3:1; nie należy stosować go do zwykłego tekstu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q04",
+        "pytanie": "Który rozmiar zwykłego kroju kwalifikuje tekst jako duży według pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "18 punktów"
+          },
+          {
+            "id": "o2",
+            "tekst": "18 pikseli CSS"
+          },
+          {
+            "id": "o3",
+            "tekst": "14 punktów bez pogrubienia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Próg dla niepogrubionego tekstu to 18 punktów, czyli 24 piksele CSS.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q05",
+        "pytanie": "Jaki rozmiar pogrubionego tekstu podano jako próg dużego?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "14 pikseli CSS"
+          },
+          {
+            "id": "o2",
+            "tekst": "12 punktów"
+          },
+          {
+            "id": "o3",
+            "tekst": "14 punktów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Jednostka ma znaczenie: pigułka wskazuje 14 punktów przy pogrubieniu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q06",
+        "pytanie": "Czy wynik 4,5:1 dowodzi pełnej dostępności strony?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli kolory pochodzą z palety marki"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, potwierdza tylko określony pomiar kontrastu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli zbadano tekst nagłówka"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Dostępność obejmuje również inne właściwości i sposoby obsługi strony.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q07",
+        "pytanie": "Gdzie mierzyć kontrast liter na fotografii?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Bezpośrednio pod literami"
+          },
+          {
+            "id": "o2",
+            "tekst": "Na średnim kolorze całej fotografii"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tylko w najciemniejszym rogu zdjęcia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Zmienne tło wymaga uwzględnienia obszarów, na których rzeczywiście znajduje się napis.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q08",
+        "pytanie": "Tekst na zdjęciu jest miejscami słabo widoczny. Co rozważyć?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Więcej kolorów w pozostałej części zdjęcia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zmianę samej treści bez zmiany wyglądu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jednolite tło pod tekstem i ponowny pomiar"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Ujednolicenie tła pomaga kontrolować parę kolorów pod napisem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q09",
+        "pytanie": "Jaki jest właściwy kolejny krok po przyciemnieniu tekstu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Sprawdzić tylko nazwę koloru w projekcie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ponownie zmierzyć kontrast"
+          },
+          {
+            "id": "o3",
+            "tekst": "Uznać wynik za wystarczający na oko"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Każdą korektę należy potwierdzić pomiarem rzeczywistej pary kolorów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q10",
+        "pytanie": "Który element podano jako wyjątek w kryterium?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tekst stanowiący część logotypu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Każdy tekst w stopce"
+          },
+          {
+            "id": "o3",
+            "tekst": "Każdy tekst pomocniczy formularza"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Wyjątki obejmują między innymi logotypy; mały tekst użytkowy nie staje się przez to wyjątkiem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q11",
+        "pytanie": "Jak potraktować podpowiedź w formularzu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pominąć, bo nie jest nagłówkiem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Pominąć, bo ma mniejszy rozmiar"
+          },
+          {
+            "id": "o3",
+            "tekst": "Sprawdzić jej rzeczywisty tekst i tło"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Tekst pomocniczy także może przekazywać ważną informację i wymaga sprawdzenia.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q12",
+        "pytanie": "Która metoda jest najmniej zależna od wzroku projektanta?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Porównanie z ulubioną stroną"
+          },
+          {
+            "id": "o2",
+            "tekst": "Pomiar narzędziem kontrastu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ocena na własnym monitorze"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Narzędzie daje wynik liczbowy; indywidualne wrażenie nie zastępuje pomiaru.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q13",
+        "pytanie": "Co jeszcze sprawdzić mimo poprawnego kontrastu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Czytelność po powiększeniu i obsługę klawiaturą"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie zgodność palety z logo"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie liczbę odcieni szarości"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Prawidłowy kontrast jest jednym z aspektów użytecznego, dostępnego interfejsu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q14",
+        "pytanie": "Zwykły tekst ma kontrast 4:1. Jak go ocenić względem 1.4.3 AA?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Spełnia próg zwykłego tekstu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Spełnia próg po zaokrągleniu do 4,5:1"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jest poniżej wymaganego minimum"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Dla zwykłego tekstu minimum wynosi 4,5:1; 4:1 go nie osiąga.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q15",
+        "pytanie": "Duży tekst ma kontrast 3,2:1. Co wynika z pomiaru?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie osiąga progu dla dużego tekstu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Osiąga próg 3:1 dla dużego tekstu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Osiąga próg dla każdego tekstu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Ten wynik dotyczy dużego tekstu; nie uprawnia do zastosowania go do zwykłych napisów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q16",
+        "pytanie": "Czy dwa wyraźnie różne odcienie muszą mieć dobry kontrast tekstu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, mogą mieć zbliżoną jasność"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli należą do różnych rodzin barw"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli oba są nasycone"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Różnica odcienia nie jest tym samym co różnica jasności.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q17",
+        "pytanie": "Które narzędzie z pigułki pomoże w kontroli kontrastu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Edytor notatek bez podglądu strony"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sam licznik słów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Chrome DevTools"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Inspekcja strony w DevTools pozwala badać rzeczywiste style i kontrast.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q18",
+        "pytanie": "Dlaczego sprawdzać stany interakcji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Ponieważ stan początkowy nie ma znaczenia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Kolory tekstu lub tła mogą się zmieniać"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ponieważ próg dotyczy tylko najechania kursorem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Każda istotna kombinacja kolorów wymaga odpowiedniej kontroli.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q19",
+        "pytanie": "Czy wyjątek dla nieaktywnej kontrolki obejmuje zwykły opis pola?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, sam opis nie jest przez to nieaktywną kontrolką"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli opis jest szary"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli opis nie daje się kliknąć"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Nie należy rozciągać wyjątku na dowolny nieklikalny tekst.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "kontrast-tekstu-q20",
+        "pytanie": "Jak najlepiej sprawdzić szary opis na kremowym tle?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Sprawdź sam kod koloru szarego"
+          },
+          {
+            "id": "o2",
+            "tekst": "Porównaj go wyłącznie z białym tłem"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zmierz parę kolorów w działającym formularzu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Wynik zależy od obu kolorów w rzeczywistym miejscu użycia.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "ilustracja-instruktazowa",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "c3036d0196e0c683a2a2bef964d1a475bbc6ac832aa266228c8b764815df9e18",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "ilustracja-instruktazowa-q01",
+        "pytanie": "Jaki jest główny cel ilustracji instruktażowej?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyjaśnienie trudnej czynności lub miejsca"
+          },
+          {
+            "id": "o2",
+            "tekst": "Uatrakcyjnienie każdej pustej przestrzeni"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zastąpienie całej treści strony"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Ilustracja ma wspierać wykonanie zadania, a nie tylko dekorować.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q02",
+        "pytanie": "Od czego zacząć jej przygotowanie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Od wyboru modnego stylu rysunku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Od zakupu zestawu ikon"
+          },
+          {
+            "id": "o3",
+            "tekst": "Od zadania odbiorcy i miejsca pomyłki"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Najpierw trzeba wiedzieć, co obraz powinien wyjaśnić.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q03",
+        "pytanie": "Ile kroków najlepiej wybrać do pojedynczego prostego rysunku według pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jak najwięcej niezależnych zadań"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jeden konkretny krok"
+          },
+          {
+            "id": "o3",
+            "tekst": "Cały proces z każdym wyjątkiem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Skupienie na jednym kroku ogranicza zbędne szczegóły.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q04",
+        "pytanie": "Co usunąć z rysunku?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Szczegóły niepomagające wykonać zadania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wskazanie istotnego miejsca"
+          },
+          {
+            "id": "o3",
+            "tekst": "Element potrzebny do rozpoznania czynności"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Uproszczenie polega na odjęciu informacji niepotrzebnych do danego celu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q05",
+        "pytanie": "Jak wskazać ważny obszar?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Dodaniem wielu równorzędnych ozdobników"
+          },
+          {
+            "id": "o2",
+            "tekst": "Powiększeniem całego tła bez zmiany akcentów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyróżnieniem kształtu lub wskazaniem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Rysunek powinien kierować uwagę na element potrzebny do działania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q06",
+        "pytanie": "Co powinien zapewniać tekst obok ilustracji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie nazwę autora rysunku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Potrzebne instrukcje także bez oglądania obrazu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie podpis z numerem grafiki"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Informacja potrzebna do zadania nie powinna być dostępna tylko wizualnie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q07",
+        "pytanie": "Jak dobrać opis alternatywny?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Do funkcji obrazu w danym kontekście"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie do nazwy pliku"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jednakowo dla wszystkich obrazów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Opis zależy od tego, co ilustracja przekazuje odbiorcy w konkretnym miejscu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q08",
+        "pytanie": "Dlaczego unikać instrukcji wyłącznie w bitmapie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Bitmapa zawsze zawiera błędne instrukcje"
+          },
+          {
+            "id": "o2",
+            "tekst": "Każdy tekst obok obrazu jest zbędny"
+          },
+          {
+            "id": "o3",
+            "tekst": "Odbiorca bez dostępu do obrazu może stracić informację"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Treść powinna być dostępna również bez odczytywania napisów z grafiki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q09",
+        "pytanie": "Z kim warto sprawdzić szkic?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie z osobą, która pisała instrukcję"
+          },
+          {
+            "id": "o2",
+            "tekst": "Z osobą nieznającą procesu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie z autorem rysunku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Osoba bez wcześniejszej wiedzy może ujawnić luki niezauważane przez autorów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q10",
+        "pytanie": "Odbiorca po obejrzeniu szkicu nadal nie wie, co zrobić. Co dalej?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Poprawić sposób wyjaśnienia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Dodać więcej dekoracyjnych detali"
+          },
+          {
+            "id": "o3",
+            "tekst": "Uznać, że potrzebny jest tylko droższy styl"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Najpierw trzeba rozwiązać problem z rozumieniem zadania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q11",
+        "pytanie": "Które zastosowanie najlepiej pasuje do tej metody?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Abstrakcyjna dekoracja bez związku z zadaniem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Galeria niepowiązanych zdjęć"
+          },
+          {
+            "id": "o3",
+            "tekst": "Pokazanie miejsca identyfikatora na dokumencie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Ilustracja pomaga wskazać konkretny obszar lub czynność.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q12",
+        "pytanie": "Jak zachować spójność serii instrukcji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Zmieniać znaczenie symboli w kolejnych krokach"
+          },
+          {
+            "id": "o2",
+            "tekst": "Stosować wspólne zasady rysowania"
+          },
+          {
+            "id": "o3",
+            "tekst": "Każdy krok rysować w losowym stylu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Spójny sposób przedstawienia ogranicza konieczność ponownego odczytywania konwencji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q13",
+        "pytanie": "Kiedy ilustracja może nie pomóc?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gdy nie odpowiada na potrzebę odbiorcy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gdy usuwa zbędne szczegóły"
+          },
+          {
+            "id": "o3",
+            "tekst": "Gdy pokazuje istotne miejsce"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Obraz dodany bez celu może odciągać uwagę od zadania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q14",
+        "pytanie": "Które narzędzie wystarczy do pierwszego szkicu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie płatny generator obrazów"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie zaawansowany program 3D"
+          },
+          {
+            "id": "o3",
+            "tekst": "Papier i ołówek"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Najpierw można sprawdzić pomysł prostym szkicem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q15",
+        "pytanie": "Jakiego dokumentu użyć w hipotetycznym przykładzie szkoleniowym?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Samego ozdobnego tła bez dokumentu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Fikcyjnego dokumentu z zaznaczonym miejscem"
+          },
+          {
+            "id": "o3",
+            "tekst": "Przypadkowego dokumentu niezwiązanego z zadaniem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Schemat powinien pozwolić rozpoznać miejsce potrzebne do wykonania zadania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q16",
+        "pytanie": "Co najlepiej świadczy o użyteczności szkicu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Odbiorca potrafi wskazać właściwy krok"
+          },
+          {
+            "id": "o2",
+            "tekst": "Autor uważa styl za nowoczesny"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ilustracja ma wiele szczegółów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Sprawdzenie powinno dotyczyć zrozumienia instrukcji, a nie samej estetyki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q17",
+        "pytanie": "Jak potraktować ilustrację w instrukcji przekazania materiałów?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako obowiązkowy element każdej sekcji"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako zamiennik ustalenia potrzeb klienta"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako wsparcie konkretnego trudnego kroku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Dobór obrazu wynika z trudności odbiorcy, nie ze stałej liczby grafik.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q18",
+        "pytanie": "Czy każda pigułka wymaga wygenerowania ilustracji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli pozostaje wolne miejsce"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, obraz powinien mieć konkretną funkcję"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, nawet jeśli niczego nie wyjaśnia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Sama obecność konceptu nie uzasadnia tworzenia grafiki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q19",
+        "pytanie": "Co zrobić z detalem, który odciąga uwagę od wskazanego numeru?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Usunąć go lub uprościć"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zwiększyć jego kontrast względem numeru"
+          },
+          {
+            "id": "o3",
+            "tekst": "Powielić go w innych częściach rysunku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Hierarchia powinna wspierać odnalezienie istotnego miejsca.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "ilustracja-instruktazowa-q20",
+        "pytanie": "Który brief lepiej opisuje ilustrację instruktażową?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nowoczesna grafika, dowolny temat"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ładne tło dopasowane do wolnego miejsca"
+          },
+          {
+            "id": "o3",
+            "tekst": "Schemat dokumentu ze wskazanym polem identyfikatora"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Dobry opis określa zadanie i informację, którą ma przekazać obraz.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "tresc-oparta-na-potrzebie",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "a151f10ad4092e4764db3eddc5750958d1b3a43882681877c6498bd4b50b88c4",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "tresc-oparta-na-potrzebie-q01",
+        "pytanie": "Od czego zaczyna się treść oparta na potrzebie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Od zadania lub pytania odbiorcy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Od docelowej liczby akapitów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Od wyboru najefektowniejszego sloganu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Najpierw określamy, co odbiorca chce wiedzieć lub zrobić.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q02",
+        "pytanie": "Który zapis najlepiej opisuje potrzebę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Potrzebujemy pięciu akapitów o firmie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Musimy użyć słowa „innowacyjny”"
+          },
+          {
+            "id": "o3",
+            "tekst": "Chcę ustalić, czy firma dojeżdża do mojej miejscowości"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Potrzeba opisuje sytuację odbiorcy, a nie wymóg redakcyjny autora.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q03",
+        "pytanie": "Jak sprawdzić przypuszczenie o potrzebie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie na podstawie gustu autora"
+          },
+          {
+            "id": "o2",
+            "tekst": "W rozmowach, zapytaniach lub obserwacjach"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie porównując kolory stron"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Dane od odbiorców pomagają odróżnić rzeczywistą potrzebę od domysłu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q04",
+        "pytanie": "Nie mamy dowodów na potrzebę. Jak ją nazwać?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Hipotezą do sprawdzenia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Potwierdzonym wymaganiem wszystkich klientów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wynikiem badania jakościowego"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Przypuszczenie nie staje się faktem przez zapisanie go w dokumencie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q05",
+        "pytanie": "Jak dobierać zakres informacji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Do długości strony konkurencji"
+          },
+          {
+            "id": "o2",
+            "tekst": "Do liczby wolnych bloków w szablonie"
+          },
+          {
+            "id": "o3",
+            "tekst": "Do decyzji, którą ma podjąć odbiorca"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Zakres powinien pomagać wykonać zadanie, a nie wypełniać układ.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q06",
+        "pytanie": "Czy format zawsze musi być długim opisem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli strona dotyczy usługi"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, czasem wystarczy zdanie, lista lub instrukcja"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, bo krótka treść nie buduje zaufania"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Potrzeba określa zarówno ilość informacji, jak i użyteczną formę.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q07",
+        "pytanie": "Czego nie naprawi sama dobra redakcja?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Oferty niespełniającej potrzeby"
+          },
+          {
+            "id": "o2",
+            "tekst": "Niejasnego zdania, które można uprościć"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nieuporządkowanego opisu, który można przebudować"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Poprawa tekstu nie zmienia automatycznie wartości i zakresu usługi.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q08",
+        "pytanie": "Brakuje potwierdzonego terminu realizacji. Co zrobić?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wpisać typowy termin z innej firmy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wybrać termin brzmiący najbardziej atrakcyjnie"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zapytać klienta o fakt"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Nie uzupełniamy braków wymyślonymi obietnicami.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q09",
+        "pytanie": "Jak potraktować zakres dojazdu przed potwierdzeniem przez firmę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Przyjąć, że obejmuje całe województwo"
+          },
+          {
+            "id": "o2",
+            "tekst": "Pozostawić jako fakt wymagający ustalenia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Opublikować listę sąsiednich miast jako pewną"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Obszar obsługi powinien wynikać z potwierdzonych informacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q10",
+        "pytanie": "Co sprawdzić po napisaniu sekcji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Czy odbiorca znajduje potrzebną odpowiedź"
+          },
+          {
+            "id": "o2",
+            "tekst": "Czy każdy akapit ma identyczną długość"
+          },
+          {
+            "id": "o3",
+            "tekst": "Czy użyto wszystkich modnych określeń"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Miarą użyteczności treści jest pomoc w zadaniu, nie regularność akapitów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q11",
+        "pytanie": "Po co wskazać następny krok?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Aby każda sekcja kończyła się sloganem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Aby uniknąć podawania informacji o usłudze"
+          },
+          {
+            "id": "o3",
+            "tekst": "Aby odbiorca wiedział, jak przejść dalej"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Treść powinna wspierać zarówno zrozumienie, jak i dalsze działanie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q12",
+        "pytanie": "Kto powinien odpowiadać za aktualność informacji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nikt, jeśli tekst raz zaakceptowano"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ustalona osoba odpowiedzialna za aktualizację"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zawsze ostatni czytelnik strony"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Treść dotycząca oferty może się zmieniać i wymaga właściciela aktualizacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q13",
+        "pytanie": "Kiedy usunąć fragment tekstu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gdy nie wspiera decyzji ani działania odbiorcy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gdy zawiera potwierdzony ważny fakt"
+          },
+          {
+            "id": "o3",
+            "tekst": "Gdy odpowiada na częste pytanie klienta"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Usuwamy zbędną treść, a nie informację potrzebną do zadania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q14",
+        "pytanie": "Czy krótszy tekst zawsze lepiej spełnia potrzebę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, niezależnie od zadania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli ma mniej niż pięć zdań"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie, może pomijać niezbędne informacje"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Zwięzłość nie może usuwać informacji koniecznych do decyzji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q15",
+        "pytanie": "Który materiał najlepiej wesprze redakcję strony usługowej?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Zestaw sloganów bez odniesienia do oferty"
+          },
+          {
+            "id": "o2",
+            "tekst": "Arkusz pytań klientów i potwierdzonych odpowiedzi"
+          },
+          {
+            "id": "o3",
+            "tekst": "Lista słów wybranych wyłącznie dla brzmienia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Pytania i fakty pomagają zbudować treść odpowiadającą potrzebom.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q16",
+        "pytanie": "Co zrobić, gdy klienci stale pytają o ten sam szczegół?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Sprawdzić, czy strona jasno na niego odpowiada"
+          },
+          {
+            "id": "o2",
+            "tekst": "Usunąć możliwość zadawania pytań"
+          },
+          {
+            "id": "o3",
+            "tekst": "Dopisać ogólne zapewnienie o jakości"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Powtarzające się pytanie może wskazywać brak potrzebnej informacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q17",
+        "pytanie": "Który proces jest zgodny z pigułką?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Szablon, dowolne hasła, publikacja bez kontroli"
+          },
+          {
+            "id": "o2",
+            "tekst": "Slogan, liczba akapitów, dopisywanie faktów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Potrzeba, dowody, dobór informacji, sprawdzenie odpowiedzi"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Kolejność łączy zadanie odbiorcy z dowodami i oceną treści.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q18",
+        "pytanie": "Czy wolno przenieść cenę z podobnej firmy do oferty klienta?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli oznaczymy cenę atrakcyjnym kolorem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, trzeba potwierdzić cenę tej firmy"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli firmy mają podobny zakres usług"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Podobieństwo usług nie potwierdza faktów dotyczących konkretnej oferty.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q19",
+        "pytanie": "Jak odróżnić potrzebę od rozwiązania redakcyjnego?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Potrzeba opisuje cel odbiorcy, a format jest sposobem pomocy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Potrzeba zawsze oznacza nową podstronę"
+          },
+          {
+            "id": "o3",
+            "tekst": "Potrzeba jest nazwą sekcji w szablonie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Jedną potrzebę można zaspokoić różnymi formatami.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "tresc-oparta-na-potrzebie-q20",
+        "pytanie": "Który efekt jest rozsądnie opisanym benefitem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pewny wzrost liczby zamówień"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gwarantowane zrozumienie przez każdego"
+          },
+          {
+            "id": "o3",
+            "tekst": "Bardziej użyteczny zakres informacji"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Metoda może pomóc, ale nie gwarantuje wyniku biznesowego ani zachowania wszystkich odbiorców.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "pomiar-konwersji",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "29cf9c85ab14a3f24fdbbbd989d977c55ba65796c5e6d7ac24d289d43aed313f",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "pomiar-konwersji-q01",
+        "pytanie": "Czym jest konwersja w ogólnym ujęciu biznesowym tej pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wybranym działaniem ważnym dla celu biznesowego"
+          },
+          {
+            "id": "o2",
+            "tekst": "Każdym otwarciem dowolnej podstrony"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie opłaceniem zamówienia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Definicja zależy od ustalonego celu; nie każda konwersja musi być sprzedażą.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q02",
+        "pytanie": "Co ustalić przed wdrożeniem pomiaru?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie kolor przycisku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie liczbę odwiedzin konkurencji"
+          },
+          {
+            "id": "o3",
+            "tekst": "Cel, sygnał wykonania i sposób kontroli"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Pomiar musi odnosić się do określonego działania i wiarygodnego sygnału.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q03",
+        "pytanie": "Jaki sygnał lepiej potwierdza zgłoszenie niż klik?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Otwarcie pola formularza"
+          },
+          {
+            "id": "o2",
+            "tekst": "Potwierdzenie przyjęcia danych przez system"
+          },
+          {
+            "id": "o3",
+            "tekst": "Najechanie kursorem na przycisk"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Klik może nie zakończyć się przyjęciem danych.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q04",
+        "pytanie": "Czy przyjęte zgłoszenie jest automatycznie sprzedażą?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, to inny etap niż opłacone zamówienie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli zawiera numer telefonu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli klient przeczytał ofertę"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Zgłoszenie, wartościowy lead i sprzedaż należy rozróżniać.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q05",
+        "pytanie": "Co oznacza mianownik we wskaźniku sesji ze zgłoszeniem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie liczbę przyjętych zgłoszeń"
+          },
+          {
+            "id": "o2",
+            "tekst": "Liczbę kliknięć z dowolnego okresu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wszystkie mierzone sesje w ustalonym okresie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Licznik i mianownik muszą należeć do jasno ustalonej definicji i okresu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q06",
+        "pytanie": "Jak policzyć odsetek sesji ze zgłoszeniem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Liczbę kliknięć pomnożyć przez zgłoszenia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sesje ze zgłoszeniem podzielić przez wszystkie mierzone sesje"
+          },
+          {
+            "id": "o3",
+            "tekst": "Liczbę wszystkich zdarzeń podzielić przez klientów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Wskaźnik wymaga zgodnych jednostek oraz określonego okresu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q07",
+        "pytanie": "10 ze 100 mierzonych sesji ma przyjęte zgłoszenie. Jaki jest odsetek?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "10%"
+          },
+          {
+            "id": "o2",
+            "tekst": "1%"
+          },
+          {
+            "id": "o3",
+            "tekst": "90%"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "10 podzielone przez 100 to 0,1, czyli 10%.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q08",
+        "pytanie": "Jedna osoba uruchomiła zdarzenie trzy razy. Co to potwierdza?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Trzech różnych klientów"
+          },
+          {
+            "id": "o2",
+            "tekst": "Trzy opłacone zamówienia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Trzy zdarzenia, niekoniecznie trzy osoby"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Liczba zdarzeń nie jest równa liczbie osób ani zakupów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q09",
+        "pytanie": "Jak raportować 12 kliknięć i 5 przyjętych zgłoszeń?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako 17 sprzedaży"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako dwie odrębne liczby"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako 12 klientów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Każda liczba dotyczy innego działania i etapu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q10",
+        "pytanie": "Co sprawdzić przy rozbieżności kliknięć i zgłoszeń?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Błędy, ponowienia i ograniczenia pomiaru"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie popularność koloru przycisku"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie liczbę słów w stopce"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Różnica może wynikać z działania formularza lub sposobu zbierania danych.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q11",
+        "pytanie": "Czy oznaczenie zdarzenia jako ważnego poprawia jego jakość?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, usuwa błędne zgłoszenia"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, zamienia kliknięcia w sprzedaż"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie, nie zmienia tego, co zdarzenie mierzy"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Etykieta analityczna nie naprawia niewiarygodnego sygnału.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q12",
+        "pytanie": "Jak GA4 nazywa ważne działania w Analytics według źródła pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie audiences"
+          },
+          {
+            "id": "o2",
+            "tekst": "Key events"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie page views"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Termin key events dotyczy ważnych działań w Analytics; trzeba odróżniać go od nazewnictwa konwersji reklamowych.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q13",
+        "pytanie": "Z czym wiążą się konwersje w opisanym nazewnictwie Google?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pomiarami i optymalizacją reklam"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie oceną kolorystyki strony"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie strukturą nagłówków"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Pigułka odróżnia ważne zdarzenia Analytics od konwersji związanych z reklamami.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q14",
+        "pytanie": "Po zmianie strony odnotowano dwa zgłoszenia więcej. Co można stwierdzić?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nowy wygląd na pewno spowodował wzrost"
+          },
+          {
+            "id": "o2",
+            "tekst": "Każdy kolejny tydzień da taki sam wzrost"
+          },
+          {
+            "id": "o3",
+            "tekst": "Potrzeba więcej danych, by przypisać przyczynę zmianie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Mała próba i inne czynniki ograniczają wnioski o przyczynowości.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q15",
+        "pytanie": "Dlaczego podawać okres pomiaru?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Aby każde zdarzenie uznać za osobę"
+          },
+          {
+            "id": "o2",
+            "tekst": "Aby liczby dotyczyły porównywalnego zakresu czasu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Aby uniknąć ustalenia celu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Bez okresu wskaźnik jest niepełnie zdefiniowany i trudny do porównania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q16",
+        "pytanie": "Które zestawienie miesza jednostki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Liczba zdarzeń podzielona przez liczbę osób, nazwana odsetkiem sesji"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sesje ze zgłoszeniem przez wszystkie sesje"
+          },
+          {
+            "id": "o3",
+            "tekst": "Liczba przyjętych zgłoszeń pokazana osobno"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Nie należy nazywać wskaźnika sesyjnym, jeśli licznik i mianownik opisują inne jednostki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q17",
+        "pytanie": "Jak potraktować zgłoszenie niespełniające kryteriów leada?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Usunąć informację, że zgłoszenie wpłynęło"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zaliczyć je automatycznie jako sprzedaż"
+          },
+          {
+            "id": "o3",
+            "tekst": "Oddzielić przyjęcie zgłoszenia od jego kwalifikacji"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Etapy lejka warto raportować osobno, zachowując znaczenie każdego z nich.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q18",
+        "pytanie": "Które narzędzie może pomóc potwierdzić przyjęcie formularza?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Licznik zdjęć na stronie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Logi obsługi formularza"
+          },
+          {
+            "id": "o3",
+            "tekst": "Sam podgląd koloru przycisku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Logi mogą dostarczyć sygnału o przyjęciu danych; trzeba kontrolować jego znaczenie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q19",
+        "pytanie": "Jaka jest rozsądna korzyść z definicji konwersji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Czytelniejsze kryterium oceny zmian"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gwarancja większej sprzedaży"
+          },
+          {
+            "id": "o3",
+            "tekst": "Usunięcie wszystkich braków danych"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Definicja pomaga interpretować wynik, lecz nie gwarantuje efektu ani kompletności pomiaru.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pomiar-konwersji-q20",
+        "pytanie": "Co zrobić, gdy część sesji nie jest mierzona?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Traktować próbę jak pełną populację bez zastrzeżeń"
+          },
+          {
+            "id": "o2",
+            "tekst": "Dopisać brakujące zgłoszenia według średniej"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ujawnić ograniczenie przy interpretacji"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Niepełny pomiar ogranicza zakres wniosku; nie należy tworzyć brakujących faktów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "pozycjonowanie-oferty",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "95f0961b1256608c3edab05f8bd364fcecef4bdc6ac756a609ce3ce35a8a855b",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "pozycjonowanie-oferty-q01",
+        "pytanie": "Co wyjaśnia pozycjonowanie oferty?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Dla kogo jest przydatna na tle rozważanych alternatyw"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie pozycję strony w Google"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie sposób rozmieszczenia logo"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "To kontekst wyboru oferty, nie technika SEO ani układ graficzny.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q02",
+        "pytanie": "Od czego zaczyna się opisane podejście April Dunford?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Od tworzenia sloganu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Od wyboru nowych kolorów marki"
+          },
+          {
+            "id": "o3",
+            "tekst": "Od alternatyw rozważanych przez klientów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Alternatywy pozwalają ustalić, względem czego różnica oferty ma znaczenie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q03",
+        "pytanie": "Czy pozostanie przy obecnym sposobie działania jest alternatywą?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, jeśli obecny sposób jest ręczny"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, klient może nie zmienić rozwiązania"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie, alternatywą jest tylko inna agencja"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Status quo również może konkurować z zakupem usługi.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q04",
+        "pytanie": "Co należy połączyć z wyróżniającą możliwością?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wartość ważną dla konkretnego klienta"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie atrakcyjne brzmienie nazwy"
+          },
+          {
+            "id": "o3",
+            "tekst": "Dowolną obietnicę przewagi rynkowej"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Różnica ma znaczenie, jeśli umożliwia wartość istotną dla odbiorcy.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q05",
+        "pytanie": "Która tabela najlepiej wspiera pozycjonowanie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Kolor, font, rozmiar logo, animacja"
+          },
+          {
+            "id": "o2",
+            "tekst": "Slogan, rym, liczba znaków, wersja językowa"
+          },
+          {
+            "id": "o3",
+            "tekst": "Alternatywa, różnica, znaczenie dla klienta, dowód"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Taki zapis łączy porównanie ofert z wartością i potwierdzeniem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q06",
+        "pytanie": "Jak potraktować pozycjonowanie bez badań lub klientów?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako gwarancję popytu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako hipotezę do sprawdzenia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako udowodnioną przewagę rynkową"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Bez dowodów opis jest roboczym założeniem, nie ustalonym faktem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q07",
+        "pytanie": "Czy atrakcyjny slogan potwierdza dopasowanie oferty do rynku?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, potrzebne są dowody z rynku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli jest krótki"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli używa języka korzyści"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Brzmienie komunikatu nie potwierdza wartości oferty dla klientów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q08",
+        "pytanie": "Kogo warto określić po ustaleniu wartości?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wszystkich użytkowników internetu jednakowo"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie odbiorców wybranych na podstawie gustu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Odbiorców, dla których ma szczególne znaczenie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Segment wynika z tego, komu dana wartość szczególnie pomaga.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q09",
+        "pytanie": "Po co wybierać zrozumiałą kategorię oferty?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Aby nie trzeba było wyjaśniać zakresu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Aby odbiorca umiał nadać jej właściwy kontekst"
+          },
+          {
+            "id": "o3",
+            "tekst": "Aby uniknąć porównania z alternatywami"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Kategoria pomaga odbiorcy rozumieć rodzaj rozwiązania i oczekiwania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q10",
+        "pytanie": "Co sprawdzić podczas rozmów o alternatywach?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Czy klient naprawdę je rozważa"
+          },
+          {
+            "id": "o2",
+            "tekst": "Czy podobają się autorowi oferty"
+          },
+          {
+            "id": "o3",
+            "tekst": "Czy każda ma podobne logo"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Istotne są rzeczywiste wybory klientów, nie wyłącznie lista teoretycznych konkurentów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q11",
+        "pytanie": "Którą przewagę można wpisać jako potwierdzoną?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Każdą, która dobrze brzmi w reklamie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Każdą popularną w branży obietnicę"
+          },
+          {
+            "id": "o3",
+            "tekst": "Różnicę popartą odpowiednim dowodem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Przewaga wymaga faktów; atrakcyjne sformułowanie nie jest dowodem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q12",
+        "pytanie": "Kiedy aktualizować pozycjonowanie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nigdy po zatwierdzeniu pierwszego opisu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gdy zmienia się oferta lub sposób zakupu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie przy zmianie fontu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Kontekst wyboru może się zmieniać wraz z rynkiem i usługą.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q13",
+        "pytanie": "Czy pozycjonowanie gwarantuje popyt?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, wymaga sprawdzania i dobrej realizacji"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli oferta ma kategorię"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli porównano trzy alternatywy"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Metoda porządkuje ofertę, ale nie zapewnia automatycznego wyniku biznesowego.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q14",
+        "pytanie": "Klient porównuje kreator i zlecenie strony. O co pytać?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Która nazwa brzmi bardziej nowocześnie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ile kolorów ma konkurencyjna strona"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jakie różnice są dla niego ważne i dlaczego"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Pytania powinny odkrywać kryteria wyboru, a nie jedynie gust.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q15",
+        "pytanie": "Jak potraktować tezę, że pomoc w treści jest ważniejsza od liczby podstron?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako dowód wyższej sprzedaży"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako hipotezę do rozmów z odbiorcami"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako fakt dotyczący każdego klienta"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Znaczenie konkretnej wartości trzeba potwierdzić dla odbiorców.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q16",
+        "pytanie": "Czym różni się cecha od wartości?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Cecha opisuje możliwość, wartość jej znaczenie dla odbiorcy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Cecha i wartość zawsze są tym samym"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wartość oznacza wyłącznie cenę"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Możliwość rozwiązania trzeba połączyć z tym, dlaczego ma znaczenie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q17",
+        "pytanie": "Który wniosek jest najostrożniejszy po jednej rozmowie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Cały rynek wybiera według tej samej różnicy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nowe pozycjonowanie jest już potwierdzone"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ten klient uznał wskazaną różnicę za ważną"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Jedna rozmowa potwierdza ograniczony przypadek, nie wzorzec całego rynku.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q18",
+        "pytanie": "Czy pozycjonowanie zastępuje jakość realizacji?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli usługa ma wyróżnik"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, obietnica nadal wymaga dostarczenia wartości"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli komunikat jest spójny"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Opis oferty nie zastępuje jej wykonania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q19",
+        "pytanie": "Jakie narzędzie pasuje do pracy nad pozycjonowaniem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Arkusz porównania alternatyw"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie audyt techniczny SEO"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie generator palet"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Arkusz pozwala zestawić alternatywy, różnice, wartość i dowody.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "pozycjonowanie-oferty-q20",
+        "pytanie": "Który efekt można rozsądnie przypisać tej metodzie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gwarantowane wygrywanie każdej rozmowy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Automatyczne zdobycie pozycji lidera"
+          },
+          {
+            "id": "o3",
+            "tekst": "Spójniejszą argumentację oferty"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Porządek argumentów może pomóc, ale nie gwarantuje wyboru przez klienta.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "responsywny-uklad",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "86b3cb12cfaf6d4b46c00843927bb7947a8f19e66c77a3e1772cb935a9170228",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "responsywny-uklad-q01",
+        "pytanie": "Co robi responsywny układ?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Dopasowuje rozmieszczenie treści do dostępnego miejsca"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tylko pomniejsza obraz całej strony"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zawsze utrzymuje stałą liczbę kolumn"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Responsywność obejmuje zmianę układu, a nie wyłącznie skalowanie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q02",
+        "pytanie": "Od jakiego układu warto zacząć według pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Najbardziej rozbudowanego widoku monitora"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sztywnego układu dla jednego modelu telefonu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Prostego układu dla wąskiego ekranu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Prosty punkt wyjścia ułatwia dodawanie elementów, gdy jest na nie miejsce.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q03",
+        "pytanie": "Kiedy dodać kolejną kolumnę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gdy projekt zawiera trzeci kolor"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gdy treść ma na nią wystarczająco miejsca"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zawsze przy tej samej nazwie urządzenia"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Decyzja powinna wynikać z zachowania treści w danej przestrzeni.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q04",
+        "pytanie": "Do czego dobierać punkt zmiany układu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Do zachowania treści"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie do listy modeli telefonów"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie do szerokości pliku logo"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Breakpoint powinien odpowiadać potrzebie zmiany układu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q05",
+        "pytanie": "Które technologie pomagają w rozmieszczeniu elementów?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie format PNG"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie arkusz kalkulacyjny"
+          },
+          {
+            "id": "o3",
+            "tekst": "CSS Grid, Flexbox i media queries"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Te mechanizmy CSS wspierają elastyczny układ i zmiany zależne od warunków.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q06",
+        "pytanie": "Dlaczego sprawdzać długie polskie nagłówki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Ponieważ na telefonie nie wolno ich zawijać"
+          },
+          {
+            "id": "o2",
+            "tekst": "Mogą ujawnić przepełnienia i złamania układu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ponieważ muszą mieć stałą liczbę liter"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Rzeczywista treść może zachowywać się inaczej niż krótki tekst demonstracyjny.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q07",
+        "pytanie": "Co zrobić z obrazem szerszym od dostępnej kolumny?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Ograniczyć jego szerokość w układzie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zwiększyć szerokość całej strony na telefonie"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ukryć wszystkie opisy obrazu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Obraz nie powinien wymuszać przepełnienia tylko dlatego, że ma duży rozmiar źródłowy.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q08",
+        "pytanie": "Co sprawdzać oprócz zamkniętego menu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie pusty formularz"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie widok bez tekstu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Także otwarte menu i komunikaty błędów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Stany interfejsu mogą ujawniać problemy niewidoczne w początkowym układzie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q09",
+        "pytanie": "Jak traktować szerokości 320, 390 i 1440 pikseli z pigułki?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jako jedyne dozwolone rozmiary strony"
+          },
+          {
+            "id": "o2",
+            "tekst": "Jako wybrane robocze przypadki kontroli"
+          },
+          {
+            "id": "o3",
+            "tekst": "Jako pełny uniwersalny standard"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Wymienione szerokości pomagają, ale nie zastępują sprawdzania rozmiarów pomiędzy nimi.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q10",
+        "pytanie": "Po co sprawdzać rozmiary pomiędzy wybranymi szerokościami?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Układ może psuć się także pomiędzy punktami kontroli"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ponieważ wybrane szerokości nie mają znaczenia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ponieważ każdy rozmiar musi mieć osobny plik HTML"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Elastyczny układ powinien działać w ciągłym zakresie dostępnej przestrzeni.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q11",
+        "pytanie": "Czy responsywność gwarantuje szybkie ładowanie?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli strona ma jedną kolumnę"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli używa Flexboxa"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie, wydajność wymaga osobnej kontroli"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Dopasowanie układu nie określa automatycznie kosztu zasobów i działania strony.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q12",
+        "pytanie": "Czy brak przepełnienia dowodzi dostępności?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli nagłówek jest widoczny"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, tekst lub kontrolki mogą nadal być trudne w użyciu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli wszystko mieści się w kadrze"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Mieszczenie się elementów nie wyczerpuje wymagań użyteczności i dostępności.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q13",
+        "pytanie": "Trzy karty są nieczytelne na telefonie. Co rozważyć?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Przejście do jednej kolumny i sprawdzenie pełnej treści"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zmniejszenie wszystkich liter do zmieszczenia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Usunięcie opisów bez oceny potrzeby"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Zmiana struktury może zachować czytelność i istotne informacje.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q14",
+        "pytanie": "Co zrobić po zmianie tekstu oferty?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Założyć, że wcześniejszy test nadal wystarcza"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sprawdzić tylko pisownię nazwy firmy"
+          },
+          {
+            "id": "o3",
+            "tekst": "Ponownie sprawdzić układ na różnych szerokościach"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Nowa długość treści może zmienić układ i zachowanie elementów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q15",
+        "pytanie": "Jak sprawdzić ważną ścieżkę mobilną?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie czytając kod CSS"
+          },
+          {
+            "id": "o2",
+            "tekst": "W działającej stronie, także na telefonie"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie na statycznym zrzucie monitora"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Realna interakcja pozwala sprawdzić zachowanie menu, pól i kontaktu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q16",
+        "pytanie": "Jaką rolę pełni ustawienie viewportu w tej pracy?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pomaga prawidłowo wyświetlać stronę na urządzeniach mobilnych"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zastępuje wszystkie reguły układu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Gwarantuje dobry kontrast tekstu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Ustawienie viewportu jest częścią przygotowania widoku, nie kompletnym rozwiązaniem.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q17",
+        "pytanie": "Który wymiar lepiej wspiera elastyczny układ?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Jedna sztywna szerokość dla każdego ekranu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Szerokość większa niż każdy telefon"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wymiar dopasowujący się do dostępnego miejsca"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Elastyczne wymiary ograniczają zależność projektu od jednego ekranu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q18",
+        "pytanie": "Co należy zachować po zmianie kart na jedną kolumnę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie pierwszą kartę"
+          },
+          {
+            "id": "o2",
+            "tekst": "Dostęp do pełnych opisów i przycisków"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie zdjęcia kart"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Zmiana układu ma wspierać wykonanie zadania, a nie przypadkowo usuwać potrzebne informacje.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q19",
+        "pytanie": "Które narzędzie pomoże szybko porównać szerokości?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tryb responsywny DevTools"
+          },
+          {
+            "id": "o2",
+            "tekst": "Sam edytor tekstu bez podglądu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Licznik wizyt na stronie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "DevTools pozwala obejrzeć zachowanie strony przy różnych rozmiarach widoku.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "responsywny-uklad-q20",
+        "pytanie": "Jaka korzyść jest zgodna z pigułką?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gwarantowana sprzedaż na telefonach"
+          },
+          {
+            "id": "o2",
+            "tekst": "Brak potrzeby późniejszych kontroli"
+          },
+          {
+            "id": "o3",
+            "tekst": "Mniej problemów po dodaniu dłuższej treści"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Elastyczny układ może ograniczyć problemy, ale nadal wymaga sprawdzania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "pigulkaId": "nadzor-czlowieka-nad-ai",
+    "wersja": 1,
+    "dataUtworzenia": "2026-10-25T00:27:14+02:00",
+    "dataAktualizacji": "2026-10-25T00:27:14+02:00",
+    "pigulkaDataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "trescSHA256": "e56ea0fcb0945e6e852f1082aa9ed1f89491c6bcde87dc4c887dfe379308d8c5",
+    "liczbaPytanWSesji": 10,
+    "pytania": [
+      {
+        "id": "nadzor-czlowieka-nad-ai-q01",
+        "pytanie": "Na czym polega nadzór człowieka nad AI?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Na świadomym sprawdzaniu i kontrolowaniu pracy systemu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Na samym istnieniu przycisku zatwierdzenia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Na zaakceptowaniu każdej odpowiedzi z dobrym stylem"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Nadzór wymaga realnej oceny, nie wyłącznie formalnego kliknięcia.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q02",
+        "pytanie": "Co ustalić na początku?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie nazwę modelu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie długość odpowiedzi"
+          },
+          {
+            "id": "o3",
+            "tekst": "Kto ocenia wynik i kiedy może zatrzymać działanie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Nadzór wymaga określonych ról i uprawnień do interwencji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q03",
+        "pytanie": "Jakie kryterium pasuje do raportu przygotowanego przez AI?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie brak błędów ortograficznych"
+          },
+          {
+            "id": "o2",
+            "tekst": "Zgodność z materiałem i prawdziwe źródła"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie pewny ton wypowiedzi"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Płynny język nie potwierdza poprawności faktów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q04",
+        "pytanie": "Do czego powinien mieć dostęp sprawdzający?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Do danych wejściowych i źródeł"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie do streszczenia wygenerowanego przez AI"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie do końcowej oceny innego modelu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Bez materiału odniesienia trudno samodzielnie zweryfikować wynik.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q05",
+        "pytanie": "Jakie uprawnienie jest ważne dla osoby oceniającej?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie zmiana koloru przycisku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Obowiązek akceptacji po przeczytaniu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Możliwość odrzucenia wyniku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Ocena ma znaczenie, jeśli może zatrzymać lub zmienić działanie.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q06",
+        "pytanie": "AI dopisało usługę nieobecną w źródłach. Co zrobić?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Uznać brak źródła za dowód powszechnej wiedzy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Usunąć niepotwierdzone twierdzenie i zapisać błąd"
+          },
+          {
+            "id": "o3",
+            "tekst": "Zostawić, jeśli pasuje do branży"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Podobieństwo do innych firm nie potwierdza oferty konkretnego klienta.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q07",
+        "pytanie": "Czy gotowy szkic oznacza zgodę na wysyłkę?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nie, wysyłka jest odrębną czynnością zewnętrzną"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, jeśli szkic przeszedł korektę językową"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli przygotował go dobry model"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Przygotowanie i upoważnienie do działania to różne etapy.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q08",
+        "pytanie": "Po co zapisywać wykryte błędy?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Aby automatycznie uznawać następne wyniki za poprawne"
+          },
+          {
+            "id": "o2",
+            "tekst": "Aby zastąpić źródła listą pomyłek"
+          },
+          {
+            "id": "o3",
+            "tekst": "Aby sprawdzać, czy poprawki je ograniczają"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Rejestr pomaga oceniać skuteczność zmian, nie daje automatycznej gwarancji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q09",
+        "pytanie": "Kiedy ponowić kontrolę sposobu działania?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Nigdy po pierwszym udanym wyniku"
+          },
+          {
+            "id": "o2",
+            "tekst": "Po zmianie modelu lub instrukcji"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie po zmianie nazwy pliku"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Zmiana systemu lub poleceń może zmienić rodzaj i częstość błędów.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q10",
+        "pytanie": "Kiedy nadzór niewiele pomaga?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Gdy oceniający automatycznie potwierdza sugestie"
+          },
+          {
+            "id": "o2",
+            "tekst": "Gdy oceniający porównuje wynik ze źródłem"
+          },
+          {
+            "id": "o3",
+            "tekst": "Gdy oceniający odrzuca niepotwierdzone twierdzenie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Bez świadomej oceny akceptacja może być pozorna.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q11",
+        "pytanie": "Do czego dostosować zakres kontroli?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Wyłącznie do długości tekstu"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie do ceny narzędzia"
+          },
+          {
+            "id": "o3",
+            "tekst": "Do skutków ewentualnej pomyłki"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Ważność kontroli wynika także z konsekwencji błędnego działania.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q12",
+        "pytanie": "Czy nadzór gwarantuje wykrycie każdego błędu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, jeśli wynik przeczyta jedna osoba"
+          },
+          {
+            "id": "o2",
+            "tekst": "Nie, człowiek również może coś przeoczyć"
+          },
+          {
+            "id": "o3",
+            "tekst": "Tak, jeśli użyto listy kontrolnej"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Procedura może pomóc, ale nie usuwa całego ryzyka pomyłki.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q13",
+        "pytanie": "Co wskazują przywołane ramy NIST?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Potrzebę ról nadzoru, ich oceny i możliwości zatrzymania"
+          },
+          {
+            "id": "o2",
+            "tekst": "Obowiązek użycia jednego konkretnego modelu"
+          },
+          {
+            "id": "o3",
+            "tekst": "Gwarancję poprawności tekstów po zatwierdzeniu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Pigułka odwołuje się do zasad organizacji nadzoru i interwencji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q14",
+        "pytanie": "Czy roboczy sposób kontroli KAIROX jest listą wymagań certyfikacyjnych?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Tak, automatycznie potwierdza certyfikację"
+          },
+          {
+            "id": "o2",
+            "tekst": "Tak, zastępuje całą dokumentację NIST"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie, to praktyczna propozycja zastosowania zasad"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Autorskie zastosowanie zasad trzeba odróżniać od formalnych wymagań i certyfikacji.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q15",
+        "pytanie": "Sprawdzający nie zna tematu i nie ma czasu. Co jest właściwym wnioskiem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Pewny ton modelu usuwa potrzebę wiedzy"
+          },
+          {
+            "id": "o2",
+            "tekst": "Warunki mogą uniemożliwiać skuteczny nadzór"
+          },
+          {
+            "id": "o3",
+            "tekst": "Samo kliknięcie nadal zapewnia pełną kontrolę"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Ocena wymaga odpowiednich informacji, kompetencji i czasu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q16",
+        "pytanie": "Jak potraktować źródło podane przez AI?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Sprawdzić jego istnienie i zgodność z twierdzeniem"
+          },
+          {
+            "id": "o2",
+            "tekst": "Uznać za prawdziwe, jeśli ma tytuł"
+          },
+          {
+            "id": "o3",
+            "tekst": "Sprawdzić wyłącznie wygląd adresu"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Prawdziwie wyglądający link nie wystarcza do weryfikacji faktu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q17",
+        "pytanie": "Który podział etapów jest prawidłowy?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Szkic oznacza automatyczną publikację"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ocena stylistyczna zastępuje wszystkie zgody"
+          },
+          {
+            "id": "o3",
+            "tekst": "Szkic, ocena, osobno upoważnione działanie"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Kontrola treści i upoważnienie do działania są oddzielnymi elementami procesu.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q18",
+        "pytanie": "Co zrobić, gdy poprawka instrukcji nie usuwa powtarzanego błędu?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Zamknąć rejestr, bo błąd jest już znany"
+          },
+          {
+            "id": "o2",
+            "tekst": "Ponownie ocenić rozwiązanie i utrzymać kontrolę"
+          },
+          {
+            "id": "o3",
+            "tekst": "Uznać samą zmianę instrukcji za dowód poprawy"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o2",
+        "wyjasnienie": "Trzeba sprawdzić efekt poprawki, zamiast wnioskować o nim z wykonanej zmiany.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q19",
+        "pytanie": "Który zestaw narzędzi najlepiej wspiera nadzór?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Kryteria akceptacji, źródła i rejestr błędów"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wyłącznie generator tekstu i przycisk wysyłki"
+          },
+          {
+            "id": "o3",
+            "tekst": "Wyłącznie licznik wygenerowanych słów"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o1",
+        "wyjasnienie": "Zestaw pozwala porównać wynik z wymaganiami i dokumentować problemy.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      },
+      {
+        "id": "nadzor-czlowieka-nad-ai-q20",
+        "pytanie": "Co oznacza raport pozostający szkicem?",
+        "odpowiedzi": [
+          {
+            "id": "o1",
+            "tekst": "Raport został już wysłany klientowi"
+          },
+          {
+            "id": "o2",
+            "tekst": "Wszystkie twierdzenia są automatycznie potwierdzone"
+          },
+          {
+            "id": "o3",
+            "tekst": "Nie zakończono jeszcze wymaganej kontroli"
+          }
+        ],
+        "poprawnaOdpowiedzId": "o3",
+        "wyjasnienie": "Status szkicu nie jest potwierdzeniem oceny ani wykonania czynności zewnętrznej.",
+        "zrodlaIndeksy": [
+          0
+        ]
+      }
+    ]
+  }
+]

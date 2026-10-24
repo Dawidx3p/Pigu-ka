@@ -1,0 +1,2 @@
+export function nextPills(items,category=null){return items.filter(p=>!p.archiwalna&&!p.wizyty.length&&(!category||p.kategorie.includes(category))).sort((a,b)=>b.priorytet-a.priorytet||a.dataUtworzenia.localeCompare(b.dataUtworzenia)||a.id.localeCompare(b.id)).slice(0,4)}
+export function orderedKnown(items,remind=false){return items.filter(p=>!p.archiwalna&&p.wizyty.length).sort((a,b)=>remind?a.wizyty.at(-1).data.localeCompare(b.wizyty.at(-1).data):a.wizyty[0].data.localeCompare(b.wizyty[0].data))}

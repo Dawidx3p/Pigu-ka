@@ -1,0 +1,15 @@
+export function shuffle(items,random=Math.random){const out=[...items];for(let i=out.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
+export function createSession(bank,random=Math.random){if(!bank||bank.wersja!==1||bank.liczbaPytanWSesji!==10||bank.pytania?.length!==20)throw Error('Brak zgodnego banku20pytań.');const ids=new Set(bank.pytania.map(q=>q.id));if(ids.size!==20)throw Error('Powielone pytania.');for(const q of bank.pytania){if(q.odpowiedzi?.length!==3||new Set(q.odpowiedzi.map(o=>o.id)).size!==3||!q.odpowiedzi.some(o=>o.id===q.poprawnaOdpowiedzId))throw Error('Nieprawidłowe odpowiedzi.')}return{pigulkaId:bank.pigulkaId,version:bank.trescSHA256,questions:shuffle(bank.pytania,random).slice(0,10).map(q=>({...q,odpowiedzi:shuffle(q.odpowiedzi,random)})),answers:{},position:0,finished:false}}
+export function answerOnce(session,qid,optionId){const q=session.questions[session.position];if(session.finished||!q||q.id!==qid||Object.hasOwn(session.answers,qid))return false;if(!q.odpowiedzi.some(o=>o.id===optionId))throw Error('Nieznana odpowiedź.');session.answers[qid]=optionId;return true}
+export function nextQuestion(session){if(session.finished)return false;const q=session.questions[session.position];if(!q||!Object.hasOwn(session.answers,q.id))return false;if(session.position===9)session.finished=true;else session.position++;return true}
+export function results(session){const answered=session.questions.filter(q=>Object.hasOwn(session.answers,q.id));return{score:answered.filter(q=>session.answers[q.id]===q.poprawnaOdpowiedzId).length,total:10,answered:answered.length,mistakes:answered.filter(q=>session.answers[q.id]!==q.poprawnaOdpowiedzId)}}
+
+export function eligibleBanks(items,banks){const known=new Set(items.filter(p=>!p.archiwalna&&p.wizyty.length).map(p=>p.id));return banks.filter(b=>known.has(b.pigulkaId)).sort((a,b)=>a.pigulkaId.localeCompare(b.pigulkaId))}
+export function mixedVersion(items,banks){return JSON.stringify(eligibleBanks(items,banks).map(b=>[b.pigulkaId,b.trescSHA256]))}
+export function createMixedSession(items,banks,random=Math.random){
+ const available=eligibleBanks(items,banks);if(!available.length)throw Error('Brak poznanych pigułek z dostępnym testem.');
+ const groups=shuffle(available,random).map(bank=>{createSession(bank,()=>.5);const name=items.find(p=>p.id===bank.pigulkaId).nazwa;return shuffle(bank.pytania.map(q=>({...q,id:bank.pigulkaId+'::'+q.id,sourcePigulkaId:bank.pigulkaId,sourceName:name})),random)});
+ // Najpierw jeden koncept z każdej pigułki (do10), potem losowe uzupełnienie.
+ const chosen=groups.slice(0,10).map(g=>g[0]);const used=new Set(chosen.map(q=>q.id));const rest=shuffle(groups.flat().filter(q=>!used.has(q.id)),random);chosen.push(...rest.slice(0,10-chosen.length));
+ return{pigulkaId:'__all__',mode:'mixed',version:mixedVersion(items,banks),questions:shuffle(chosen,random).map(q=>({...q,odpowiedzi:shuffle(q.odpowiedzi,random)})),answers:{},position:0,finished:false};
+}

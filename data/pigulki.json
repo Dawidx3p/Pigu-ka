@@ -1,0 +1,680 @@
+[
+  {
+    "id": "user-journey",
+    "nazwa": "User journey — droga do celu",
+    "krotkiOpis": "User journey to droga człowieka do konkretnego celu. Obejmuje jego kroki, pytania i przeszkody. Mapa pomaga zobaczyć doświadczenie szerzej niż pojedynczy ekran. W KAIROX może uporządkować drogę od wejścia na stronę do zapytania. Bez badań pozostaje hipotezą do sprawdzenia.",
+    "pelnyOpis": "Zacznij od jednej osoby, jednego celu i sytuacji. Rozpisz etapy, działania oraz miejsca kontaktu z firmą. Zaznacz potwierdzone pytania i przeszkody; przypuszczenia oznacz osobno.\n\nMapa służy rozmowie o tym, gdzie pomóc użytkownikowi. Nie jest samą listą podstron ani dekoracją do prezentacji. Uzupełniaj ją obserwacjami i rozmowami, zamiast dopisywać wymyślone emocje.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ux-research",
+      "ui-design",
+      "cro-marketing"
+    ],
+    "grafika": null,
+    "tagi": [
+      "user-journey",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Planowanie drogi od oferty do kontaktu",
+      "Wybór problemu do sprawdzenia podczas rozmowy"
+    ],
+    "benefity": [
+      "Wspólny obraz doświadczenia",
+      "Łatwiejsze wskazanie luk"
+    ],
+    "przykladPraktyczny": "Hipotetyczny klient warsztatu szuka terminu, sprawdza usługę i chce zadzwonić. Na mapie zaznaczamy brak informacji o godzinach. Sprawdzamy w rozmowach, czy to rzeczywiście utrudnia kontakt.",
+    "przydatneNarzedzia": [
+      "Papier i karteczki",
+      "Tablica w Figmie"
+    ],
+    "powiazaneKoncepty": [
+      "persona",
+      "etykiety-formularza"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Journey Mapping 101 — NN/g",
+        "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 100,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "persona",
+    "nazwa": "Persona — dla kogo projektujemy",
+    "krotkiOpis": "Persona przedstawia typ użytkownika i jego potrzeby. Powinna wynikać z badań, a nie z wyobrażeń o wieku czy zawodzie. Pomaga zespołowi pamiętać o celach odbiorcy. W KAIROX może wspierać dobór treści i pytań. Wstępny profil bez badań trzeba nazwać hipotezą.",
+    "pelnyOpis": "Persona zbiera wzorce potrzeb, zachowań i ograniczeń z badań. Wybieraj cechy istotne dla danego zadania, nie rozbudowaną fikcyjną biografię.\n\nTworząc stronę usługową, pytaj o okoliczności wyboru firmy i informacje potrzebne do decyzji. Aktualizuj opis po nowych obserwacjach. Nie zastępuj nim rozmów z rzeczywistymi ludźmi.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ux-research",
+      "copywriting"
+    ],
+    "grafika": null,
+    "tagi": [
+      "persona",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Przygotowanie pytań do wywiadu",
+      "Dobór informacji na stronie klienta"
+    ],
+    "benefity": [
+      "Mniej projektowania pod własne upodobania",
+      "Czytelniejszy kontekst decyzji"
+    ],
+    "przykladPraktyczny": "Zakładamy, że właściciel małej firmy ma mało czasu na porównywanie ofert. To hipoteza. Rozmowy mogą pokazać, że ważniejsza jest obawa o późniejszą obsługę strony.",
+    "przydatneNarzedzia": [
+      "Notatki z rozmów",
+      "Dokument z oddzielonymi faktami i hipotezami"
+    ],
+    "powiazaneKoncepty": [
+      "user-journey"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Personas Make Users Memorable — NN/g",
+        "url": "https://www.nngroup.com/articles/persona/",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 95,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "etykiety-formularza",
+    "nazwa": "Etykiety formularza — jasne pola",
+    "krotkiOpis": "Etykieta mówi, jakie dane należy wpisać w pole. Powinna być widoczna i powiązana z kontrolką. Placeholder nie zastępuje etykiety. Dzięki temu formularz łatwiej zrozumieć i obsłużyć. W KAIROX sprawdzamy etykiety także klawiaturą i czytnikiem ekranu.",
+    "pelnyOpis": "W HTML powiąż element label z polem przez zgodne wartości for i id. Opisz cel pola prostymi słowami. Instrukcje formatu podawaj obok, gdy są potrzebne.\n\nStała etykieta pozostaje widoczna podczas pisania. Zwiększa też wygodny obszar kliknięcia. Sam efekt wizualny nie wystarczy: sprawdź nazwę dostępną dla technologii asystujących i zachowanie fokusu.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ui-design",
+      "web-development",
+      "copywriting"
+    ],
+    "grafika": null,
+    "tagi": [
+      "etykiety-formularza",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Przegląd formularza kontaktowego",
+      "Opis pól i kontrola dostępności"
+    ],
+    "benefity": [
+      "Mniej niejasności przy wpisywaniu",
+      "Lepsza obsługa technologii asystujących"
+    ],
+    "przykladPraktyczny": "W formularzu wyceny zmieniamy samo „Wpisz…” na widoczną etykietę „Adres e-mail”. Łączymy ją z polem, a podpowiedź zostawiamy jako przykład.",
+    "przydatneNarzedzia": [
+      "Narzędzia deweloperskie przeglądarki",
+      "VoiceOver lub NVDA"
+    ],
+    "powiazaneKoncepty": [
+      "user-journey",
+      "progressive-enhancement"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Labeling Controls — W3C WAI",
+        "url": "https://www.w3.org/WAI/tutorials/forms/labels/",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 90,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "hierarchia-typografii",
+    "nazwa": "Hierarchia typografii — co czytamy najpierw",
+    "krotkiOpis": "Hierarchia typografii nadaje tekstom różną wagę. Rozmiar, odstępy i grubość wskazują strukturę. Dzięki temu łatwiej skanować stronę. Styl wizualny trzeba połączyć z prawidłową strukturą nagłówków. W KAIROX pomaga to uporządkować ofertę bez dodawania ozdobników.",
+    "pelnyOpis": "Ustal kilka ról: tytuł, nagłówek sekcji, tekst i podpis. Używaj ich spójnie, zamiast dobierać nowy rozmiar dla każdego bloku. Sprawdź czytelność na wąskim ekranie i po powiększeniu.\n\nNagłówki HTML opisują strukturę, a CSS wygląd. Większy tekst nie powinien przypadkiem zastępować prawdziwego nagłówka. Ograniczona skala i przewidywalne odstępy pomagają utrzymać porządek.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ui-design",
+      "graphic-design",
+      "branding"
+    ],
+    "grafika": null,
+    "tagi": [
+      "hierarchia-typografii",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Projektowanie sekcji oferty",
+      "Kontrola spójności materiałów marki"
+    ],
+    "benefity": [
+      "Szybsze odnajdywanie sekcji",
+      "Spójniejszy język wizualny"
+    ],
+    "przykladPraktyczny": "Na stronie warsztatu odróżniamy tytuł usługi, cenę i opis. Wszystkie usługi korzystają z tych samych ról typograficznych. Testujemy także długi polski tytuł.",
+    "przydatneNarzedzia": [
+      "Style tekstowe w Figmie",
+      "CSS i tryb responsywny"
+    ],
+    "powiazaneKoncepty": [
+      "etykiety-formularza"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Type scale — GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/styles/type-scale/",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 85,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "progressive-enhancement",
+    "nazwa": "Progressive enhancement — działająca podstawa",
+    "krotkiOpis": "Progressive enhancement zaczyna od podstawowej treści i funkcji. Kolejne warstwy dodają wygodę tam, gdzie są obsługiwane. Nie każdy odbiorca ma te same możliwości urządzenia i przeglądarki. Podstawowa droga do celu powinna pozostać użyteczna. W KAIROX warto tak myśleć o stronach usługowych.",
+    "pelnyOpis": "Najpierw zapewnij istotną treść i podstawowe działanie. Potem dodawaj stylowanie oraz skrypty, uwzględniając dostępne możliwości przeglądarki. Wykrywanie funkcji jest lepsze niż zakładanie identycznego środowiska.\n\nTo strategia projektowania, nie automatyczna gwarancja działania bez JavaScript. Sprawdź konkretne awarie i określ, które funkcje muszą przetrwać. Przy formularzu potrzebna jest także działająca obsługa po stronie serwera.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "web-development",
+      "ui-design"
+    ],
+    "grafika": null,
+    "tagi": [
+      "progressive-enhancement",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Planowanie formularzy i nawigacji",
+      "Testy przy niedostępności skryptów"
+    ],
+    "benefity": [
+      "Mniej zależności podstawowej funkcji od dodatków",
+      "Szersza użyteczność"
+    ],
+    "przykladPraktyczny": "Numer telefonu jest zwykłym linkiem tel, nawet jeśli obok działa rozbudowane okno kontaktu. Gdy dodatkowy skrypt zawiedzie, odbiorca nadal może skorzystać z numeru.",
+    "przydatneNarzedzia": [
+      "DevTools: blokowanie skryptów",
+      "Testy na różnych przeglądarkach"
+    ],
+    "powiazaneKoncepty": [
+      "etykiety-formularza"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Progressive enhancement — MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 80,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "kontrast-struktury",
+    "nazwa": "Czytelna struktura tekstu — mniej szukania",
+    "krotkiOpis": "Czytelna struktura dzieli treść na sensowne fragmenty. Nagłówki mówią, czego dotyczy sekcja. Akapity rozwijają po jednej myśli. Wyraźne linki pomagają rozpoznać dalsze kroki. W KAIROX stosujemy to w ofertach i pigułkach wiedzy.",
+    "pelnyOpis": "Zacznij od pytań odbiorcy i dobierz do nich nagłówki. Pod nimi umieść krótkie akapity oraz listy tam, gdzie elementy są równoległe. Zachowaj czytelny krój, rozmiar i odstępy.\n\nSama typografia nie poprawi niejasnej treści. Najpierw usuń niepotrzebne zdania i nazwij konkretne działanie. Weryfikuj czytelność na telefonie oraz przy powiększeniu.",
+    "dataUtworzenia": "2026-10-24T19:24:11+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "copywriting",
+      "ui-design",
+      "graphic-design"
+    ],
+    "grafika": null,
+    "tagi": [
+      "kontrast-struktury",
+      "podstawy",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Redakcja opisu usługi",
+      "Porządkowanie treści w raporcie"
+    ],
+    "benefity": [
+      "Łatwiejsze skanowanie",
+      "Mniej wysiłku w odnajdywaniu informacji"
+    ],
+    "przykladPraktyczny": "Zamiast długiego bloku oferty tworzymy sekcje: zakres, termin i następny krok. Każda odpowiada na jedno pytanie klienta.",
+    "przydatneNarzedzia": [
+      "Edytor tekstu",
+      "Podgląd mobilny"
+    ],
+    "powiazaneKoncepty": [
+      "hierarchia-typografii"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Typography — Home Office Design",
+        "url": "https://design.homeoffice.gov.uk/design-system/styles/typography",
+        "dataDostepu": "2026-10-24T19:24:11+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:24:11+02:00",
+    "priorytet": 75,
+    "archiwalna": true,
+    "dataArchiwizacji": "2026-10-24T19:24:11+02:00",
+    "testowa": true
+  },
+  {
+    "id": "test-uzytecznosci",
+    "nazwa": "Test użyteczności — obserwuj wykonanie zadania",
+    "krotkiOpis": "Test użyteczności pokazuje, jak człowiek wykonuje zadanie w produkcie. Uczestnik korzysta ze strony lub prototypu, a badacz obserwuje jego działania. Metoda pomaga znaleźć przeszkody, których projektant nie zauważył. W KAIROX można sprawdzić nią drogę do zapytania o usługę. Sama opinia, że strona wygląda dobrze, nie pokazuje, czy da się z niej wygodnie skorzystać.",
+    "pelnyOpis": "Wybierz konkretną decyzję projektową i realistyczne zadanie. Zamiast polecenia „kliknij Kontakt” poproś: „Chcesz zapytać o termin usługi; pokaż, jak to zrobisz”. Zaproś osoby odpowiadające odbiorcom strony. Uprzedź, że sprawdzana jest strona, a nie ich umiejętności.\n\nObserwuj próby, pomyłki i momenty zawahania. Nie podpowiadaj od razu rozwiązania. Oddziel zapis zachowania od własnej interpretacji, a po zmianie sprawdź problem ponownie.\n\nKilka sesji jakościowych może ujawnić bariery, ale nie daje wiarygodnego procentu wszystkich klientów z danym problemem. Symulacja wykonana przez AI może pomóc przygotować scenariusz; nie zastępuje obserwacji rzeczywistych użytkowników.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ux-research"
+    ],
+    "grafika": null,
+    "tagi": [
+      "test-uzytecznosci",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Sprawdzenie, czy odbiorca znajduje zakres usługi i kontakt.",
+      "Weryfikacja prototypu strony przed wdrożeniem."
+    ],
+    "benefity": [
+      "Możliwość wykrycia niejasnych kroków.",
+      "Lepsze uzasadnienie kolejności poprawek."
+    ],
+    "przykladPraktyczny": "Hipotetycznie uczestnik szukający wyceny otwiera galerię, ponieważ przycisk kontaktu jest niejasny. KAIROX zapisuje obserwację, zmienia nazwę przycisku i sprawdza nową wersję w kolejnej sesji.",
+    "przydatneNarzedzia": [
+      "Przeglądarka",
+      "Papierowy arkusz obserwacji",
+      "Prototyp w Figmie"
+    ],
+    "powiazaneKoncepty": [
+      "user-journey",
+      "persona"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Usability (User) Testing 101 — Kate Moran, NN/g",
+        "url": "https://www.nngroup.com/articles/usability-testing-101/",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 82,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "kontrast-tekstu",
+    "nazwa": "Kontrast tekstu — czytelność względem tła",
+    "krotkiOpis": "Kontrast tekstu opisuje różnicę jasności liter i ich tła. Pomaga ocenić, czy napis jest dostatecznie wyraźny. WCAG określa minimalne proporcje dla tekstu objętego tym kryterium. W KAIROX pomiar przydaje się przy projektowaniu oferty i formularzy. Dobry wynik pomiaru nie zastępuje oceny wielkości liter i całego układu.",
+    "pelnyOpis": "W WCAG 2.2 kryterium 1.4.3 na poziomie AA wymaga co najmniej 4,5:1 dla zwykłego tekstu oraz 3:1 dla dużego. Duży tekst oznacza przynajmniej 18 punktów, czyli 24 piksele CSS, lub 14 punktów przy pogrubieniu. Kryterium zawiera wyjątki, między innymi dla logotypów i nieaktywnych kontrolek.\n\nSprawdź rzeczywiste kolory tekstu i tła, również w podpowiedziach i stanach interakcji. Na fotografii badaj miejsca bezpośrednio pod literami. Gdy wynik jest za niski, zmień jasność koloru albo zapewnij jednolite tło.\n\nPomiar dotyczy konkretnego kryterium, a nie pełnej dostępności strony. Nadal trzeba sprawdzić czytelność po powiększeniu, obsługę klawiaturą i znaczenie komunikatów. Nie oceniaj kontrastu wyłącznie własnym wzrokiem.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ui-design",
+      "web-development"
+    ],
+    "grafika": null,
+    "tagi": [
+      "kontrast-tekstu",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Kontrola tekstów na stronie oferty.",
+      "Sprawdzenie opisów pól i przycisków formularza."
+    ],
+    "benefity": [
+      "Czytelniejsze informacje dla większej grupy odbiorców.",
+      "Mniej decyzji kolorystycznych opartych na wyczuciu."
+    ],
+    "przykladPraktyczny": "Hipotetycznie szary opis pola znika na kremowym tle. KAIROX mierzy parę kolorów, przyciemnia tekst i ponawia pomiar w działającym formularzu.",
+    "przydatneNarzedzia": [
+      "Chrome DevTools — inspekcja kontrastu",
+      "Firefox Accessibility Inspector"
+    ],
+    "powiazaneKoncepty": [
+      "etykiety-formularza",
+      "hierarchia-typografii"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Understanding SC 1.4.3 Contrast (Minimum) — W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 78,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "ilustracja-instruktazowa",
+    "nazwa": "Ilustracja instruktażowa — pokaż trudny krok",
+    "krotkiOpis": "Ilustracja instruktażowa pokazuje czynność albo miejsce, które trudno opisać samymi słowami. Upraszcza widok do elementów potrzebnych odbiorcy. Pomaga wyjaśnić na przykład lokalizację numeru na dokumencie. W KAIROX może wspierać instrukcje dla klienta przekazującego materiały. Dodana bez konkretnej potrzeby może tylko odciągać uwagę.",
+    "pelnyOpis": "Najpierw zapisz, co odbiorca ma zrobić i gdzie zwykle się myli. Wybierz jeden krok do pokazania. Usuń z rysunku szczegóły, które nie pomagają wykonać zadania, a ważny obszar wyróżnij kształtem lub wskazaniem.\n\nTreść obok obrazu powinna przekazywać potrzebne instrukcje również bez oglądania grafiki. Przy publikacji dobierz opis alternatywny do funkcji obrazu i unikaj umieszczania całej instrukcji wyłącznie w bitmapie. Kilka ilustracji powinno używać spójnych zasad rysowania.\n\nW KAIROX warto najpierw sprawdzić szkic z osobą, która nie zna procesu. Jeśli nadal nie rozumie zadania, popraw instrukcję zamiast dodawać ozdoby. Ta pigułka opisuje metodę; nie wymaga tworzenia obrazu przy każdym zleceniu.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "graphic-design"
+    ],
+    "grafika": null,
+    "tagi": [
+      "ilustracja-instruktazowa",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Wyjaśnienie klientowi, jaki fragment materiału należy przekazać.",
+      "Przygotowanie instrukcji obsługi gotowej strony."
+    ],
+    "benefity": [
+      "Możliwość uproszczenia trudnego wyjaśnienia.",
+      "Spójniejsze materiały instruktażowe."
+    ],
+    "przykladPraktyczny": "Hipotetycznie klient nie wie, gdzie znaleźć identyfikator zamówienia. KAIROX przygotowuje schemat fikcyjnego dokumentu z zaznaczonym miejscem i dodaje obok krótkie wyjaśnienie.",
+    "przydatneNarzedzia": [
+      "Figma",
+      "Inkscape",
+      "Papier i ołówek"
+    ],
+    "powiazaneKoncepty": [
+      "kontrast-struktury"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Images — GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/styles/images/",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 52,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "tresc-oparta-na-potrzebie",
+    "nazwa": "Treść oparta na potrzebie odbiorcy",
+    "krotkiOpis": "Treść oparta na potrzebie zaczyna się od zadania odbiorcy. Autor ustala, czego człowiek chce się dowiedzieć lub co zrobić. Dopiero potem dobiera informacje i ich formę. W KAIROX pomaga to pisać strony usługowe odpowiadające na rzeczywiste pytania. Nawet zwięzły tekst może nie pomóc, jeśli odpowiada na niewłaściwe pytanie.",
+    "pelnyOpis": "Przed pisaniem zanotuj potrzebę: „Chcę ustalić, czy firma wykonuje tę usługę w mojej miejscowości”. Sprawdź ją w rozmowach, zapytaniach lub obserwacjach. Jeśli nie masz dowodów, oznacz ją jako hipotezę.\n\nDobierz minimalny zestaw informacji potrzebnych do decyzji. Czasem wystarczy zdanie, czasem lista zakresu lub instrukcja. Wskaż następny krok i sprawdź, czy odbiorca potrafi znaleźć odpowiedź. Ustal też, kto aktualizuje informacje o ofercie.\n\nTo zastosowanie zasad content design do pracy KAIROX, a nie sam przepis na krótsze zdania. Nie uzupełniaj luk wymyślonym terminem, ceną ani zasięgiem obsługi. Brakujący fakt wymaga pytania do klienta. Dobra redakcja nie naprawi oferty, która nie spełnia potrzeby.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "copywriting"
+    ],
+    "grafika": null,
+    "tagi": [
+      "tresc-oparta-na-potrzebie",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Przygotowanie treści sekcji usługi z pytań klientów.",
+      "Usuwanie fragmentów, które nie wspierają decyzji ani działania."
+    ],
+    "benefity": [
+      "Bardziej użyteczny zakres informacji.",
+      "Łatwiejsze wskazanie faktów wymagających potwierdzenia."
+    ],
+    "przykladPraktyczny": "Hipotetycznie odbiorcy pytają o obszar dojazdu ekipy. KAIROX proponuje sekcję z obszarem obsługi dopiero po potwierdzeniu miejscowości przez firmę.",
+    "przydatneNarzedzia": [
+      "Edytor tekstu",
+      "Notatki z rozmów",
+      "Arkusz pytań i potwierdzonych odpowiedzi"
+    ],
+    "powiazaneKoncepty": [
+      "persona",
+      "kontrast-struktury"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Understand content design — GOV.UK",
+        "url": "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/understand-content-design/",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 80,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "pomiar-konwersji",
+    "nazwa": "Pomiar konwersji — ustal, co jest wynikiem",
+    "krotkiOpis": "Konwersja to wybrane działanie ważne dla celu biznesowego. Może oznaczać przyjęte zapytanie, jeśli tak zdefiniujemy wynik. Pomiar wymaga ustalenia, jakie zdarzenie naprawdę potwierdza ten krok. W KAIROX pomaga oddzielić zainteresowanie od kontaktu i sprzedaży. Samo kliknięcie przycisku nie dowodzi, że wiadomość dotarła.",
+    "pelnyOpis": "Przed wdrożeniem pomiaru opisz cel, sygnał jego wykonania i sposób kontroli. Dla formularza lepszym sygnałem niż klik jest potwierdzenie przyjęcia danych przez system. Nadal trzeba oddzielić odebrane zgłoszenie od wartościowego leada i opłaconego zamówienia. To propozycja organizacji pomiaru dla KAIROX.\n\nJeśli liczysz odsetek konwersji, zapisz licznik, mianownik i okres, na przykład sesje z przyjętym zgłoszeniem podzielone przez wszystkie mierzone sesje w tygodniu. Nie mieszaj liczby zdarzeń z liczbą osób. Sprawdź błędy, ponowienia oraz ograniczenia danych.\n\nW obecnej dokumentacji GA4 ważne działania w Analytics nazywają się key events, a konwersje są związane z pomiarem i optymalizacją reklam. Samo oznaczenie zdarzenia jako ważnego nie poprawia jego jakości. Przy małej próbie lub niepełnym pomiarze ostrożnie interpretuj różnice; nie przypisuj każdej zmiany wyglądowi strony.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "cro-marketing"
+    ],
+    "grafika": null,
+    "tagi": [
+      "pomiar-konwersji",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Uzgodnienie z klientem, co oznacza skuteczny formularz.",
+      "Rozdzielenie raportu kliknięć, zgłoszeń i sprzedaży."
+    ],
+    "benefity": [
+      "Czytelniejsze kryterium oceny zmian.",
+      "Mniejsze ryzyko raportowania kliknięć jako klientów."
+    ],
+    "przykladPraktyczny": "Hipotetycznie strona odnotowała 12 kliknięć przycisku, ale system przyjął 5 zgłoszeń. KAIROX raportuje obie liczby osobno i sprawdza przyczyny różnicy; nie nazywa 12 kliknięć sprzedażą.",
+    "przydatneNarzedzia": [
+      "Arkusz wyników",
+      "Logi obsługi formularza",
+      "Google Analytics 4 — jeśli jest wdrożone"
+    ],
+    "powiazaneKoncepty": [
+      "user-journey",
+      "etykiety-formularza"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Conversions vs. key events in Google Analytics — Google",
+        "url": "https://support.google.com/analytics/answer/13965727?hl=en",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 84,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "pozycjonowanie-oferty",
+    "nazwa": "Pozycjonowanie oferty — kontekst wyboru",
+    "krotkiOpis": "Pozycjonowanie wyjaśnia, dla kogo oferta jest szczególnie przydatna i na tle jakich alternatyw. Łączy wyróżniające możliwości z wartością ważną dla klienta. Pomaga nadać ofercie zrozumiały kontekst. W KAIROX może uporządkować rozmowę o tym, dlaczego ktoś miałby wybrać daną usługę. Sam efektowny slogan nie potwierdza, że oferta pasuje do rynku.",
+    "pelnyOpis": "W podejściu April Dunford zacznij od alternatyw rozważanych przez klientów, również pozostania przy obecnym sposobie działania. Następnie wskaż rzeczywiste różnice oferty i wartość, jaką umożliwiają. Ustal, dla kogo ta wartość ma szczególne znaczenie, oraz dobierz zrozumiałą kategorię oferty.\n\nDla KAIROX praktycznym zapisem może być tabela: alternatywa, potwierdzona różnica, znaczenie dla klienta, dowód. Rozmowy powinny sprawdzić, czy odbiorca rzeczywiście tak porównuje rozwiązania. Nie dopisuj przewagi tylko dlatego, że brzmi atrakcyjnie.\n\nBez klientów lub badań powstaje hipoteza pozycjonowania. Trzeba ją sprawdzać i aktualizować, gdy zmienia się oferta albo sposób zakupu. Metoda nie gwarantuje popytu i nie zastępuje dobrej realizacji usługi. Nie należy też mylić jej z technicznym pozycjonowaniem strony w wyszukiwarce.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "branding"
+    ],
+    "grafika": null,
+    "tagi": [
+      "pozycjonowanie-oferty",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Doprecyzowanie odbiorcy i wyróżnika oferty KAIROX.",
+      "Przygotowanie pytań o alternatywy podczas rozmów z klientami."
+    ],
+    "benefity": [
+      "Spójniejsza argumentacja oferty.",
+      "Lepsze rozpoznanie, komu usługa może pomóc."
+    ],
+    "przykladPraktyczny": "Hipotetycznie firma wybiera między samodzielnym kreatorem a zleceniem strony. KAIROX sprawdza, czy ważniejszą różnicą jest pomoc w uporządkowaniu treści niż liczba podstron. To hipoteza do rozmów.",
+    "przydatneNarzedzia": [
+      "Arkusz porównania alternatyw",
+      "Notatki z rozmów",
+      "Edytor tekstu"
+    ],
+    "powiazaneKoncepty": [
+      "persona",
+      "user-journey"
+    ],
+    "zrodla": [
+      {
+        "tytul": "A Quickstart Guide to Positioning — April Dunford",
+        "url": "https://www.aprildunford.com/post/a-quickstart-guide-to-positioning",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 76,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "responsywny-uklad",
+    "nazwa": "Responsywny układ — treść dopasowana do miejsca",
+    "krotkiOpis": "Responsywny układ dopasowuje stronę do dostępnej przestrzeni. Treść może zmieniać liczbę kolumn i sposób rozmieszczenia elementów. Celem jest wygodne korzystanie z tej samej strony na różnych ekranach. W KAIROX dotyczy to zwłaszcza oferty, nawigacji i formularza na telefonie. Samo zmniejszenie całej strony nie zapewnia użyteczności.",
+    "pelnyOpis": "Zacznij od prostego układu dla wąskiego ekranu. Używaj elastycznych wymiarów, a kolejne kolumny dodawaj wtedy, gdy treść ma na nie miejsce. CSS Grid, Flexbox i media queries pomagają sterować rozmieszczeniem. Punkt zmiany układu dobieraj do zachowania treści, zamiast tylko do modelu urządzenia.\n\nOgranicz szerokość dużych obrazów i zadbaj o ustawienie viewportu. Sprawdzaj długie polskie nagłówki, komunikaty błędów i otwarte menu. W KAIROX dobrym sprawdzeniem roboczym są szerokości 320, 390 i 1440 pikseli oraz rozmiary pomiędzy nimi. To wybrane przypadki kontroli, nie uniwersalny standard.\n\nObejrzyj działającą stronę, a ważną ścieżkę sprawdź także na telefonie. Responsywność nie gwarantuje szybkości ładowania ani dostępności. Układ może mieścić się na ekranie, a nadal mieć nieczytelne napisy lub trudne do obsługi elementy.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "web-development",
+      "ui-design"
+    ],
+    "grafika": null,
+    "tagi": [
+      "responsywny-uklad",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Kontrola oferty i kontaktu na wąskim ekranie.",
+      "Naprawa przepełnień po zmianach tekstu."
+    ],
+    "benefity": [
+      "Wygodniejsze wykorzystanie dostępnego miejsca.",
+      "Mniej problemów po dodaniu dłuższej treści."
+    ],
+    "przykladPraktyczny": "Hipotetycznie trzy karty usług mieszczą się na monitorze, ale na telefonie tekst wypada poza ekran. KAIROX zmienia układ na jedną kolumnę i sprawdza pełne opisy oraz przyciski.",
+    "przydatneNarzedzia": [
+      "CSS Grid i Flexbox",
+      "Tryb responsywny DevTools",
+      "Przeglądarka na telefonie"
+    ],
+    "powiazaneKoncepty": [
+      "progressive-enhancement",
+      "hierarchia-typografii"
+    ],
+    "zrodla": [
+      {
+        "tytul": "Responsive web design — MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 74,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  },
+  {
+    "id": "nadzor-czlowieka-nad-ai",
+    "nazwa": "Nadzór człowieka nad AI — sprawdź przed działaniem",
+    "krotkiOpis": "Nadzór człowieka nad AI oznacza świadome sprawdzanie i kontrolowanie pracy systemu. Trzeba ustalić, kto ocenia wynik i kiedy może zatrzymać działanie. Sam przycisk zatwierdzenia nie wystarcza, jeśli nikt nie sprawdza treści. W KAIROX nadzór przydaje się przy researchu, raportach i szkicach wiadomości. Nie daje gwarancji wykrycia każdego błędu.",
+    "pelnyOpis": "NIST AI RMF 1.0 wskazuje potrzebę określenia ról nadzoru, ich oceny oraz możliwości zatrzymania systemu. Strona NIST informuje obecnie o pracach nad aktualizacją ram. Poniższy sposób pracy jest praktyczną propozycją dla KAIROX, a nie listą wymagań certyfikacyjnych.\n\nDla zadania zapisz kryteria akceptacji: zgodność z materiałem, prawdziwe źródła i brak niepotwierdzonych twierdzeń. Osoba sprawdzająca powinna mieć dostęp do danych wejściowych oraz możliwość odrzucenia wyniku. Oddziel przygotowanie szkicu od czynności zewnętrznej, takiej jak wysłanie lub publikacja.\n\nZapisuj wykryte błędy i sprawdzaj, czy poprawki rzeczywiście je ograniczają. Ponów kontrolę po zmianie modelu lub instrukcji. Nadzór niewiele pomaga, gdy oceniający nie ma czasu, wiedzy albo tylko automatycznie potwierdza sugestie. Dostosuj zakres kontroli do skutków ewentualnej pomyłki.",
+    "dataUtworzenia": "2026-10-24T19:44:33+02:00",
+    "wizyty": [],
+    "kategorie": [
+      "ai-automation"
+    ],
+    "grafika": null,
+    "tagi": [
+      "nadzor-czlowieka-nad-ai",
+      "kairox"
+    ],
+    "difficulty": "podstawowy",
+    "czasCzytaniaMin": 2,
+    "zastosowaniaWPracy": [
+      "Weryfikacja faktów i źródeł w raporcie przygotowanym przez AI.",
+      "Kontrola szkicu przed osobno upoważnioną wysyłką."
+    ],
+    "benefity": [
+      "Większa szansa wykrycia błędnego twierdzenia.",
+      "Jasna odpowiedzialność za ocenę i zatrzymanie działania."
+    ],
+    "przykladPraktyczny": "Hipotetycznie AI dopisuje klientowi usługę nieobecną w źródłach. Osoba sprawdzająca porównuje raport z materiałem, usuwa twierdzenie i zapisuje przyczynę odrzucenia. Raport pozostaje szkicem do czasu zakończenia kontroli.",
+    "przydatneNarzedzia": [
+      "Lista kryteriów akceptacji",
+      "Materiały źródłowe",
+      "Rejestr błędów w arkuszu"
+    ],
+    "powiazaneKoncepty": [
+      "persona",
+      "kontrast-struktury"
+    ],
+    "zrodla": [
+      {
+        "tytul": "AI RMF Core — NIST, GOVERN 3.2, MAP 3.5, MANAGE 2.4",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+        "dataDostepu": "2026-10-24T19:44:33+02:00"
+      }
+    ],
+    "dataAktualizacji": "2026-10-24T19:44:33+02:00",
+    "priorytet": 81,
+    "archiwalna": false,
+    "dataArchiwizacji": null,
+    "testowa": false
+  }
+]
